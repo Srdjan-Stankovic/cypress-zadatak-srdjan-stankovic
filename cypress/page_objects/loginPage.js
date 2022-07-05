@@ -13,7 +13,7 @@ class LoginPage {
     }
 
     get newOrgTitle() {
-        return cy.get('h2');
+        return cy.get('h2').first();
     }
 
     login(email, password) {

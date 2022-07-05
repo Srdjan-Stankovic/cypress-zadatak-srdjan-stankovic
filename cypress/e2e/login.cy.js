@@ -27,7 +27,7 @@ describe('login POM', () => {
 
         cy.url().should('not.include', '/login');
         loginPage.newOrgTitle.should('be.visible')
-            .and('have.text', 'Add new Organization');
+            .and('have.text', 'srdjan123');
 
     })
 
